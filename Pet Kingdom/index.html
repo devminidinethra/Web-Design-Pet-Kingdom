@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pet kingdom</title>
+    <link rel="icon" type="image-icon" href="./part.png">
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="image">
+        <nav class="nav">
+            <div class="logo">
+                <img src="img/logo.png" height="130px" width="130px">
+            </div>
+            
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./foods1.html">Foods</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+
+			
+			
+        </nav>
+        <div class="container">
+            <div class="row">
+                <h2><b>Welcome to Pet shop- Your Trusted Pet Shop Online!</b></h2>
+                <p>where happiness comes in furry packages! We're here to make tails wag and hearts smile. Whether you're looking for a new friend, tasty treats, or cozy beds, you're in the right place. Join our pet-loving family, and let's share the joy of companionship. Explore our aisles filled with everything pets need and love. Your pet's happiness starts right here!" 🐾🐶🐱🦜</p>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-image: url("img/Dogp.jpg");
+        }
+
+        * {
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+	/* Add styles for the navigationbar */
+
+	.image{
+		position: relative;
+		right: 0;
+		left: 0;
+		z-index: 1000;
+		height:30%;
+		width:100%;
+	}
+
+	nav {
+		
+		display:flex;
+		justify-content: space-around;
+		align-items : center;
+		position:relative;
+		right:0;
+		left:0;
+		background:#808080;
+		box-shadow: 5px 5px 10px ;
+		z-index:1000;
+
+	}
+	
+	.logo{
+		
+		cursor: pointer;
+		margin: 7px 0; 
+	
+	}
+	ul{
+		list-style: none;
+	
+	}
+	
+	li{
+		
+		display:inline-block;
+		margin:0 15px;
+		font-size:18px;;
+	}
+	nav ul a:hover{
+		color:white;
+	}
+	a{
+		color:black;
+	}
+
+        .container {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 70%;
+        }
+
+        .row {
+            box-sizing: border-box;
+            padding: 45px;
+            width: 100%;
+        }
+
+        p {
+            position: absolute;
+            padding-right: 50px;
+            padding-bottom: 45px;
+            padding-left: 50px;
+            color: #ebcdcd;
+            font-size: 1.5rem;
+            line-height: 1.2;
+            font-family: 'Shadows Into Light', cursive;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 3rem;
+            padding-right: 50px;
+            padding-left: 50px;
+            line-height: 1.2;
+            font-family: sans-serif;
+            font-weight: 800;
+        }
+
+      
+    </style>
+
+    
+</body>
+</html>
