@@ -1,0 +1,387 @@
+<html>
+<head>
+	<title>pet Kingdom</title>
+	
+	<title><img src="Footpart.png"></title>
+	 <link rel="icon" type="image-icon" href="./part.png">
+	
+	
+	<!-- google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative&family=IBM+Plex+Mono&family=Koulen&family=Open+Sans:ital,wght@0,300;1,300&family=Playfair+Display&family=Poppins:ital,wght@0,400;1,300&family=Raleway:wght@300&family=Roboto+Mono:wght@100;300&family=Roboto:wght@300&family=Shadows+Into+Light&family=Victor+Mono:wght@100&display=swap" rel="stylesheet">
+	<!-- icons -->
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	
+	<style>
+
+		body{
+			margin:0px;
+			background-color:white;
+			overflow-x:hidden;
+			}
+			
+			*{
+			
+				text-decoration:none;
+				font-family:sans-serif;
+			}
+			
+			/* Add styles for the navigationbar */
+			
+			.image{
+				position: relative;
+				right: 0;
+				left: 0;
+				z-index: 1000;
+				height:30%;
+				width:100%;
+			}
+		
+			nav {
+				
+				display:flex;
+				justify-content: space-around;
+				align-items : center;
+				position:relative;
+				right:0;
+				left:0;
+				background:#808080;
+				box-shadow: 5px 5px 10px ;
+				z-index:1000;
+				text-align:right;
+			}
+			.navbar{
+				display:flex;
+				justify-content: unsafe center;
+				flex-direction: row;
+				text-align:right;
+			
+			}
+			.logo{
+				
+				cursor: pointer;
+				margin: 7px 0; 
+				
+			
+			}
+			.nav ul{
+				list-style: none;
+			
+			}
+			
+			.nav li{
+				
+				display:inline-block;
+				margin:0 15px;
+				font-size:18px;;
+			}
+			.nav ul a:hover{
+				color:white;
+			}
+			a{
+				color:black;
+			}
+			
+			.dog{
+				position:relative;
+				bottom:60px;
+				right:-10px;
+				margin:0px;
+				
+			
+			}
+			.row{
+				 position: absolute;
+				 bottom: 8px;
+				 left: 50px;
+				 margin-right: 0.5rem !important;	
+				 padding:5px;
+				 background-color:#C0C0C0;
+				 width:130px;
+			}
+			.row1 span{
+			 padding:5px;
+			 font-size:16px;
+			
+			
+			}
+			.row1{
+				position: absolute;
+				right:20px;
+				padding:5px;
+			}
+			
+			/* Add styles for the About*/
+			
+			.about{
+				background:url("img/laba.jpg") no-repeat right;
+				background-size:55%;
+				background-color:white;
+				overflow:hidden;
+				padding:100px 0;
+				object-fit:cover;
+			
+			}
+			.innercontaint{
+				width:50%;
+				float:left;
+				background-color:lightblue;
+				padding:3px;
+				position:relative;
+				bottom:0px;
+				height:70%;
+				right:-5px;
+				
+			}
+			.innercontaint h2{
+				margin-bottom:30px;
+				font-size:30px;
+				font-weight:900;
+				
+				
+			}
+			.innercontaint p{
+				font-family: 'Victor Mono', monospace;
+		
+			}
+			.text{
+				font-size:14px;
+				color:#716969;
+				line-height:23px;
+				text-align:justify;
+				margin-bottom:25px;
+			}
+			
+			@media screen and (max-width:1200px){
+				.innercontaint {
+					padding:70px;
+				}
+			}
+			@media screen and (max-width:1000px){
+				.about {
+				background-size:100%;
+					padding:100px;
+					
+				}
+			
+				.innercontaint {
+					width:90%;
+					height:40%;
+				}
+			
+			}
+				@media screen and (max-width:600px){
+				.about {
+				
+					padding:0px;
+				}
+			
+				.innercontaint {
+					padding:60px;	
+				}
+			
+			}
+			
+			/* Add styles for the fotter */
+			
+			.footer {
+				background: #1a1a1a;
+				position: relative;
+				z-index: 0;
+			}
+		
+		/* Add styles for the fotter social media icons */
+		
+			.socialicon{
+				display:flex;
+				justify-content:center;
+				
+			}
+			.socialicon a{
+				text-decoration:none;
+				padding:10px;
+				background-color:white;
+				margin:10px;
+				border-radius:50px;
+			}
+			.socialicon a i{
+				font-size:30px;
+				opacity:0.9;
+				color:black;
+			}
+			.socialicon a:hover{
+				background-color:#111;
+				transition:0.5s;
+			}
+			.socialicon a:hover i{
+				color:white;
+				transition:0.5s;
+			}
+			
+	/* Add styles for the fotter navigationbar */	
+	
+			.fotternav{
+				margin:30px 0;
+			
+			}
+			.fotternav ul{
+				display:flex;
+				justify-content:center;
+			}
+			.fotternav ul li a{
+				color:white;
+				margin:20px;
+				text-decoration:none;
+				font-size:1.3rem;
+				opacity : 0.7;
+				transition:0.5s;
+			}
+			.fotternav ul li a:hover{
+				opacity:1;
+			}
+			.footerbottom{
+				background-color:#000;
+				padding:20px;
+				text-align:center;
+			}
+			.footerbottom p{
+				color:white;
+			}
+			.designer{
+				opacity:0.7;
+				text-transform:uppercase;
+				letter-spacing:1px;
+				font-weight:400;
+				margin:0px 5px;
+			}
+
+
+			/* STYICKY NAVI */
+
+					/* Styles for the sticky navigation bar */
+					.sticky {
+						position: fixed;
+						top: 0;
+						z-index: 1000;
+						background: rgba(0, 0, 0, 0.8); /* Example background color for the sticky navbar */
+						transition: background 0.3s ease-in-out;
+					}
+
+					.sticky.nav ul a {
+						color: white; /* Adjust link color for the sticky navbar */
+					}
+
+
+
+	
+
+			
+			
+			
+			</style>
+	
+</head>
+
+<body>
+	<div class="image">
+        <nav class="nav">
+            <div class="logo">
+                <img src="img/logo.png" height="130px" width="130px">
+            </div>
+            
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./foods1.html">Foods</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+
+			
+			
+        </nav>
+	</div>
+		
+		
+	<div class = "dog">
+	<image src = "img/d.png" height="60%" width="99%" >
+	<div class = "row">
+		<div class = "row1">
+		<span>
+			<a href="./index.html">Home</a>
+			</span>
+			<span>About</span>
+		</div>
+			<h1 class = "Food">About</h1>
+		
+		</div>	
+	</div>	
+
+
+
+	<div class = "about">
+		<div class = "innercontaint">
+		<h2>About Us</h2>
+		<p class = "text"><b>Welcome to Pet kingdom, your one-stop shop for all things dogs' health and nutrition. We understand that a happy dog starts with a healthy tummy, so we offer a wide variety of premium dog foods that are tailored to the individual needs of your furry friend. From puppyhood to golden years, we have something for every wagging appetite.</b></p>
+		<p class = "text"><b>Our digital shelves are stocked with a curated range of premium dog foods, thoughtfully chosen to cater to the diverse needs of our four-legged companions. From puppyhood to golden years, we've got something for every wagging appetite. Our foods are crafted with care, using high-quality ingredients that are as wholesome as a belly rub.</b></p>
+		<p class = "text"><b>Our team of veterinarians and pet nutritionists are committed to the well-being of your canine companion. We believe that a well-fed and well-cared-for pup is a happy pup, and we're here to help you make sure your dog has the best possible life.</b></p>
+		<p class = "text"><b>Thank you for entrusting us with your dog's health and happiness. We're here to be your partner in fostering a long, healthy, and happy life for your furry friend.</b></p>
+		
+		
+		</div>
+	</div>
+	
+	<footer class = "footer">
+		<div class = "socialicon">
+			<a href =""><i><ion-icon name="logo-facebook"></ion-icon></i></a>
+			<a href =""><i><ion-icon name="logo-instagram"></ion-icon></i></a>
+			<a href =""><i><ion-icon name="logo-twitter"></ion-icon></i></a>
+			<a href =""><i><ion-icon name="logo-github"></ion-icon></i></a>	
+		</div>
+		<div class = "fotternav">
+		<ul>
+			 <li><a href="./index.html">Home</a></li>
+			  <li><a href="./About.html">About</a></li>
+			  <li><a href="./foods1.html">Foods</a></li>
+			  <li><a href="./Services.html">Services</a></li>
+			  <li><a href="./Contact.html">Contact</a></li>
+			</ul>
+		</div>
+			<div class = "footerbottom">
+				<p>Coppyright &copy; 2023 pet kingdom. All rights reserved. | Designed by <span class = "designer">Devmini Gamage</span></p>
+			</div>
+	</footer>
+
+	
+
+
+
+<!-- JAVA -->
+
+		<script>
+			window.addEventListener('scroll', function() {
+				var nav = document.querySelector('.nav');
+				var scrollY = window.scrollY;
+
+				if (scrollY > 0) {
+					nav.classList.add('sticky');
+				} else {
+					nav.classList.remove('sticky');
+				}
+			});
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
