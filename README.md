@@ -1,4 +1,4 @@
-#Pet Kingdom Website.
+# Pet Kingdom Website.
 
 This project is a website for Pet Kingdoms, created using HTML, CSS, and JavaScript. I made this website for my first-year assignment in web designing. It features a variety of pet food products and services, all easy to find with user-friendly navigation. The design focuses on both creativity and practicality, aiming to provide a great online experience for pet owners and lovers.
 
